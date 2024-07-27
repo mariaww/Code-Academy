@@ -1,0 +1,222 @@
+/* to reset everything */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* keep consistent throughout entire web */
+
+body {
+    background-color: black;
+    font-size: 22px;
+    font-family: Helvetica;
+    color: seashell;
+}
+
+a {
+    color: inherit;
+}
+
+.center {
+    text-align: center;
+}
+
+/* style the whole body section */
+
+/*--------- head section----------- */
+
+#header {
+    position: fixed;
+    top: 0;
+}
+
+#nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid seashell;
+    height: 69px;
+    padding: 0 15px;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+    margin: auto 10px;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* auto-resize an image while maintaining aspect ratio by setting img to max width height to 100%*/
+
+.nav-bar {
+    margin: auto 10px;
+}
+
+.nav-bar a {
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+/*--------- main section----------- */
+
+
+
+.hero {
+    background-image: url(/img/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    padding-top: 69px;
+    opacity: 0.9;
+}
+
+.hero-title {
+
+    width: 1200px;
+    margin: auto;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 30%;
+    width: 100%;
+    height: auto;
+    /* center a "position: absolute" element */
+    background-color: black;
+}
+
+.hero-title h2 {
+    padding: 14px 0;
+
+}
+
+.hero-title h4 {
+    padding: 14px 0;
+
+}
+
+/*--------- featured section----------- */
+
+.featured {
+    width: 1000px;
+    height: auto;
+    margin: 100px auto;
+}
+
+/*--------- featured section title ----------- */
+.featured-title h2 {
+    margin: 14px 0;
+}
+
+.featured-title h4 {
+    margin: 14px 0;
+}
+
+/*--------- featured section items----------- */
+.featured-item-wrap {
+    height: 200px;
+    width: 300px;
+    /* set the size of the img item */
+}
+
+/*--------- featured-flex-wrap----------- */
+.featured-item {
+    margin: 25px 0;
+}
+
+/*--------- featured-flex top----------- */
+.featured-item .top {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.featured-item-wrap h4 {
+
+    margin: 10px 0;
+    text-align: center;
+}
+
+.featured-item .bottom {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 60px 0;
+
+}
+
+/*---------location section----------- */
+
+.location {
+    height: 500px;
+    width: 1200px;
+    background-image: url(/img/locations-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 100px auto 20px auto;
+    opacity: 0.8;
+
+}
+
+/*---------location content with 2 div----------- */
+.location-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+/*---------flex item wrap x 3item----------- */
+.location-flex-wrap {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 15px 0;
+}
+
+/*---------flex item x 4 text----------- */
+.location-flex-item {
+    background-color: black;
+    width: 300px;
+    height: auto;
+    padding: 15px 0;
+}
+
+/*---------flex item text----------- */
+.location-flex-item h3 {
+    padding: 18px 0;
+}
+
+.location-flex-item h4 {
+    padding: 18px 0;
+}
+
+/*---------contact section----------- */
+
+.contact {
+    height: 200px;
+}
+
+.contact-title {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+/*---------footer section----------- */
+
+#footer {
+    width: 100;
+    margin: 20px 20px 40px 20px;
+    text-align: left;
+}
